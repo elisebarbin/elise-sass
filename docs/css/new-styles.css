@@ -4,7 +4,10 @@ html, body {
   color: #FFF; }
 
 p, a {
-  font-size: 0.75rem; }
+  font-size: 1rem; }
+
+a:hover {
+  text-decoration: underline; }
 
 img {
   padding-left: 30px;
@@ -17,39 +20,47 @@ ul {
 .container {
   min-height: 100%;
   display: flex; }
-  .container .nav {
-    width: 15%;
-    min-width: 140px;
-    color: #A9A9A9;
-    padding-top: 55px;
-    padding-right: 30px;
-    text-align: center; }
-    .container .nav h4 {
-      -webkit-margin-before: 0;
-      margin-left: 50px; }
-  .container .main {
-    width: 85%;
-    min-height: 750px;
-    min-width: 600px;
-    background-color: #A9A9A9; }
-  .container .ul {
-    padding-left: 30px; }
-  .container .li {
-    font-size: 0.85rem; }
-  .container .h1 {
+
+.nav {
+  width: 15%;
+  min-width: 140px;
+  color: #0c4483;
+  padding-top: 55px;
+  padding-right: 30px;
+  text-align: center; }
+  .nav a:link {
+    color: #0c4483; }
+  .nav a:hover {
+    color: #0c4483; }
+  .nav a:visited {
+    color: #0c4483; }
+  .nav h4 {
+    -webkit-margin-before: 0;
+    margin-left: 50px; }
+
+.main {
+  width: 85%;
+  min-height: 750px;
+  min-width: 600px;
+  background-color: #0c4483; }
+  .main > * {
+    padding-left: 60px; }
+  .main .li {
+    font-size: 1rem; }
+  .main .h1 {
     font-size: 62px;
     -webkit-margin-before: 0;
-    padding-top: 40px;
+    padding-top: 30px;
     padding-left: 30px; }
-  .container .video {
+  .main .video {
     padding-left: 30px; }
-  .container .p {
+  .main .p {
     padding-left: 30px;
     width: 55%;
     min-width: 550px; }
-  .container .a {
+  .main .a {
     color: inherit;
     padding-left: 30px;
     text-decoration: none; }
-  .container .a:hover {
+  .main .a:hover {
     text-decoration: underline; }
