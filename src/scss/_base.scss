@@ -8,9 +8,6 @@ html, body {
     font-size: 1rem;
   }
   
-  a:hover {
-    text-decoration: underline;
-  }
 
   img {
     padding-left: 30px;
@@ -19,7 +16,7 @@ html, body {
   }
   
   ul {
-    list-style: none;
+    list-style: circle;
   }
   
   .container {
